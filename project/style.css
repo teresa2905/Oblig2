@@ -5,9 +5,12 @@
         font-size: 14px;
        
     }
+    @font-face {
+        font-family: 'Montserrat-Bold';
+        src: url(assets/fonts/Montserrat-Bold.ttf);
+    }
     h1,h2,h3 {
-        font-family: "Montserrat-Bold";
-        src: url(Montserrat-Bold.ttf) format("truetype");
+        font-family: "Montserrat-Bold";;
     }
     * {
        
