@@ -63,6 +63,11 @@
         font-size: 1.2rem;
     }
 
+    main {
+        box-shadow: 0px 0px 0px 1px darkgrey;
+        background-color: whitesmoke;
+    }
+
     h1,h2,h3 {
         font-family: "Montserrat-Bold";
     }
@@ -79,26 +84,19 @@
     header, main, footer {
         width: 85vw;
     }
+    
 
     #intro-container > div {
         float:left;
         width: 45%;
+        text-align: center;
     }
 
-    main {
-        box-shadow: 0px 0px 0px 1px darkgrey;
-        background-color: whitesmoke;
+
+
+    #intro-container > div:first-child {
+        background-color: red;
     }
-    
-    #intro-container::after {
-        content: "";
-        display:table;
-        clear: both;
-    }
-
-    
-
-
     
     }
 
