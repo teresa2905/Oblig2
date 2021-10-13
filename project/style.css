@@ -66,12 +66,13 @@
         background-color: whitesmoke;
         margin: auto;
         margin-bottom: 2rem;
+        margin-top: 2rem;
+
     }
 
     #intro-container {
         padding: 2em;
         background-color: #c5192d;
-        margin: 2rem 0rem;
     }
 
     ul {
@@ -102,8 +103,6 @@
 
     article {
         box-sizing: border-box;
-        width: 100%;
-        height: auto;
         display: table;
         padding: 2rem;
     }
@@ -114,8 +113,6 @@
 
     article > img {
         width: 100%;
-        height: auto;
-        margin: auto;
         display: table-footer-group;
     }
 
