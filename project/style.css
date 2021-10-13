@@ -139,7 +139,55 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 960px) {
+    html {
+        font-size: 16px;
+    }
+
+    @font-face {
+        font-family: 'Montserrat-Bold';
+        src: url(assets/fonts/Montserrat-Bold.ttf);
+    }
+
+    body {
+        background: linear-gradient(35deg, #f5f7fa 0%, #c3cfe2 100%);
+        font-family: Lato, sans-serif;
+        font-size: 1.2rem;
+    }
+
+    main {
+        box-shadow: 0px 0px 0px 1px darkgrey;
+        background-color: whitesmoke;
+    }
+
+    h1,h2,h3 {
+        font-family: "Montserrat-Bold";
+    }
+
+    header {
+        height: 65vh;
+        background-image: url(../project/assets/img/studentsbg.png);
+        background-attachment: fixed;
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    header, main, footer {
+        width: 85vw;
+    }
     
+
+    #intro-container > div {
+        float:left;
+        width: 45%;
+        text-align: center;
+    }
+
+
+
+    #intro-container > div:first-child {
+        background-color: red;
+    }
     
     }
 
