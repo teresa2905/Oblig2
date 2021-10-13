@@ -80,7 +80,7 @@
         width: 85vw;
     }
 
-    #intro-container > div > p {
+    #intro-container > div {
         float:left;
         width: 45%;
     }
@@ -90,12 +90,9 @@
         background-color: whitesmoke;
     }
     
-    
-
-
     #intro-container::after {
         content: "";
-        display: table;
+        display:table;
         clear: both;
     }
 
