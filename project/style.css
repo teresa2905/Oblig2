@@ -2,6 +2,8 @@
     body {
         background: linear-gradient(35deg, #f5f7fa 0%, #c3cfe2 100%);
         font-family: Lato, sans-serif;
+        font-size: 14px;
+        
     }
     * {
        
