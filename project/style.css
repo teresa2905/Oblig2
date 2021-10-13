@@ -15,7 +15,7 @@
         src: url(assets/fonts/Montserrat-Bold.ttf);
     }
 
-    h1,h2,h3 {
+    h1, h2, h3 {
         font-family: "Montserrat-Bold";
     }
 
@@ -42,7 +42,6 @@
         background-repeat: no-repeat;
         margin-bottom: 2rem;
         display: inline-block;
-
     }
 
     header > div {
@@ -53,15 +52,12 @@
         position: relative;
         top: 4rem;
         width: 95vw;
-        height: auto;
         margin: auto;
         box-sizing: border-box;
-        margin: auto;
     }
 
     main {
         width: 95vw;
-        height: auto;
         box-shadow: 0px 0px 0px 1px darkgrey;
         background-color: whitesmoke;
         margin: auto;
