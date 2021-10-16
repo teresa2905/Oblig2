@@ -141,53 +141,167 @@
         font-size: 16px;
     }
 
+    body {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        font-family: Lato, sans-serif;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
     @font-face {
         font-family: 'Montserrat-Bold';
         src: url(assets/fonts/Montserrat-Bold.ttf);
     }
-
-    body {
-        background: linear-gradient(35deg, #f5f7fa 0%, #c3cfe2 100%);
-        font-family: Lato, sans-serif;
-        font-size: 1.2rem;
-    }
-
-    main {
-        box-shadow: 0px 0px 0px 1px darkgrey;
-        background-color: whitesmoke;
-    }
-
-    h1,h2,h3 {
+    
+    h1, h2, h3 {
         font-family: "Montserrat-Bold";
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        max-width: 70ch;
+        line-height: 1.5;
     }
 
     header {
         height: 65vh;
+        width: 100%;
         background-image: url(../project/assets/img/studentsbg.png);
         background-attachment: fixed;
         background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 4rem;
+
     }
 
-    header, main, footer {
+    header > div {
+        background-color: #c5192d;
+        color: white;
+        text-align: center;
+        padding: 2rem;
+        position: absolute;
+        bottom: -4rem;
+        right: 0;
+        left: 0;
         width: 85vw;
+        margin: auto;
+        box-sizing: border-box;
     }
-    
 
-    #intro-container > div {
+    main {
+        width: 85vw;
+        box-shadow: 0px 0px 0px 1px darkgrey;
+        background-color: whitesmoke;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+    main > #intro-container > ul {
+        border-bottom: solid 2px;
+    }
+
+
+    main > #intro-container > div {
+        padding: 2em;
+        text-align: center;
+        padding: 2rem;
+        bottom: -4rem;
+        right: 0;
+        left: 0;
+        width: 85vw;
+        margin: auto;
+        box-sizing: border-box; 
         float:left;
         width: 45%;
-        text-align: center;
+        height: fit-content;
+        border-bottom: 2px;
     }
 
-
-
-    #intro-container > div:first-child {
+    #intro-container div:first-child {
         background-color: red;
+        width: 50%;
+    }
+
+    @counter-style single-emoji {
+        system: cyclic;
+        symbols: "\1F64C" "1F3EB" "1F4DA";
+        suffix: " ";
+    }
+
+    li::before {
+        content: "🙌 ";
+        width: 1rem;
+        margin: 1rem 1rem 0rem 1rem;
+    }
+
+    li:nth-child(2)::before {
+        content: "🏫 ";
+    }
+
+    li:nth-child(3)::before {
+        content: "📚 ";
     }
     
+
+    li {
+        list-style: none;
     }
+    
+    main article:nth-child(2) {
+        height: 100%;
+    }
+    
+
+    main article:nth-child(2) > img {
+        float: left;
+        width: 45%;
+        margin: auto;
+        overflow: auto;
+        position: relative;
+        height: 100%;
+    
+    }
+
+    main article:nth-child(2) > div {
+        float: left;
+        width: 45%;
+        height: 100%;
+        margin: auto;
+        overflow: auto;
+        position: relative;
+        height: 100%;
+    
+    }
+
+    main article:nth-last-child(2) > div:first-child {
+        width: 50%;
+    }
+
+    main article:nth-last-child(3) > img {
+        float: left;
+        width: 45%;
+        margin: auto;
+        overflow: auto;
+        position: relative;
+        height: 100%;
+    }
+}
 
 @media screen and (min-width: 960px) {
     
