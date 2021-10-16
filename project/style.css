@@ -213,15 +213,26 @@
     }
 
     main > #intro-container > ul {
-        border-bottom: solid 2px;
-    }
-
-
-    main > #intro-container > div {
         padding: 2em;
         text-align: center;
         padding: 2rem;
-        bottom: -4rem;
+        right: 0;
+        left: 0;
+        width: 85vw;
+        margin: auto;
+        box-sizing: border-box; 
+        float:left;
+        display: inline;
+        width: 45%;
+        height: fit-content;
+        border-bottom: 2px;
+    }
+
+
+    main > #intro-container > div{
+        padding: 2em;
+        text-align: center;
+        padding: 2rem;
         right: 0;
         left: 0;
         width: 85vw;
@@ -231,6 +242,7 @@
         width: 45%;
         height: fit-content;
         border-bottom: 2px;
+        height: 100%;
     }
 
     #intro-container div:first-child {
@@ -280,7 +292,7 @@
 
     main article:nth-child(2) > div {
         float: left;
-        width: 45%;
+        width: 50%;
         height: 100%;
         margin: auto;
         overflow: auto;
