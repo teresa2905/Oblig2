@@ -212,26 +212,14 @@
         width: 100%;
     }
 
-    main > #intro-container > ul {
-        padding: 2em;
-        text-align: center;
-        padding: 2rem;
-        right: 0;
-        left: 0;
-        width: 85vw;
-        margin: auto;
-        box-sizing: border-box; 
-        float:left;
-        display: inline;
-        width: 45%;
-        height: fit-content;
-        border-bottom: 2px;
+    main > #intro-container > div > ul {
+        float: right;
+        height: 100%;
     }
 
 
     main > #intro-container > div{
         padding: 2em;
-        text-align: center;
         padding: 2rem;
         right: 0;
         left: 0;
@@ -248,6 +236,7 @@
     #intro-container div:first-child {
         background-color: red;
         width: 50%;
+        height: 100%;
     }
 
     @counter-style single-emoji {
@@ -275,9 +264,6 @@
         list-style: none;
     }
     
-    main article:nth-child(2) {
-        height: 100%;
-    }
     
 
     main article:nth-child(2) > img {
@@ -287,7 +273,7 @@
         overflow: auto;
         position: relative;
         height: 100%;
-    
+
     }
 
     main article:nth-child(2) > div {
