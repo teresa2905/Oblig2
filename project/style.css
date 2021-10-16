@@ -214,29 +214,31 @@
 
     main > #intro-container {
         width: 100%;
+        border-bottom: solid 2px;
         height: 100%;
+        justify-content: space-between;
     }
 
 
     main > #intro-container > div{
+        display: inline-block;
+        vertical-align: middle;
         padding: 2em;
         padding: 2rem;
-        right: 0;
-        left: 0;
         width: 85vw;
-        margin: auto;
-        box-sizing: border-box; 
-        float:left;
+        margin: 0;
+        box-sizing: border-box;
         width: 45%;
-        height: fit-content;
-        border-bottom: 2px;
     }
 
     #intro-container div:first-child {
         background-color: #c5192d;
         width: 50%;
         height: 100%;
+        
     }
+
+
 
     @counter-style single-emoji {
         system: cyclic;
@@ -262,37 +264,38 @@
     li {
         list-style: none;
     }
+
+    main article:nth-child(2) {
+        padding: 2em;
+        padding: 2rem;
+        justify-content: space-between;
+        
+    }
     
     
 
     main article:nth-child(2) > img {
-        float: left;
         width: 45%;
         margin: auto;
-        overflow: auto;
-        position: relative;
-        height: 100%;
+        box-sizing: border-box;
 
     }
 
     main article:nth-child(2) > div{
         float: left;
-        width: 50%;
+        width: 45%;
         height: 100%;
-        margin: auto;
-        overflow: auto;
-        position: relative;
+        box-sizing: border-box;
     
     }
 
 
-    main article:nth-last-child(3) > img {
-        float: left;
-        width: 45%;
-        margin: auto;
-        overflow: auto;
-        position: relative;
-        height: 100%;
+
+
+    main article:nth-child(3) > div,img {
+
+        box-sizing: border-box;
+        display: inline-block;
     }
 }
 
