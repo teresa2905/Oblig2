@@ -212,8 +212,8 @@
         width: 100%;
     }
 
-    main > #intro-container > div > ul {
-        float: right;
+    main > #intro-container {
+        width: 100%;
         height: 100%;
     }
 
@@ -230,11 +230,10 @@
         width: 45%;
         height: fit-content;
         border-bottom: 2px;
-        height: 100%;
     }
 
     #intro-container div:first-child {
-        background-color: red;
+        background-color: #c5192d;
         width: 50%;
         height: 100%;
     }
@@ -276,20 +275,16 @@
 
     }
 
-    main article:nth-child(2) > div {
+    main article:nth-child(2) > div{
         float: left;
         width: 50%;
         height: 100%;
         margin: auto;
         overflow: auto;
         position: relative;
-        height: 100%;
     
     }
 
-    main article:nth-last-child(2) > div:first-child {
-        width: 50%;
-    }
 
     main article:nth-last-child(3) > img {
         float: left;
