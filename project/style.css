@@ -1,112 +1,133 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat-Bold", sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+p {
+    max-width: 70ch;
+}
+
+header {
+    width: 100%;
+    background-image: url(../project/assets/img/studentsbg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+header > div {
+    background-color: #c5192d;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    bottom: -4rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+main {
+    box-shadow: 0px 0px 0px 1px darkgrey;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@counter-style single-emoji {
+    system: cyclic;
+    symbols: "\1F64C" "1F3EB" "1F4DA";
+    suffix: " ";
+}
+
+li::before {
+    content: "🙌 ";
+    width: 1rem;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+li:nth-child(2)::before {
+    content: "🏫 ";
+}
+
+li:nth-child(3)::before {
+    content: "📚 ";
+}
+
+article {
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: #c5192d;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+
 @media screen and (max-width: 600px) {
     html {
         font-size: 14px;
     }
 
-    body {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-        font-family: 'Lato', sans-serif;
-        font-size: 1.2rem;
-        margin: 0;
-        line-height: 1.5;
-    }
-
-    @font-face {
-        font-family: 'Montserrat-Bold';
-        src: url(assets/fonts/Montserrat-Bold.ttf);
-    }
-
-    h1, h2, h3 {
-        font-family: "Montserrat-Bold", sans-serif;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 2.2rem;
-    }
-
-    p {
-        max-width: 70ch;
-    }
-
     header {
         height: 55vh;
-        width: 100%;
-        background-image: url(../project/assets/img/studentsbg.png);
-        background-attachment: fixed;
-        background-position: center top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: inline-block;
-        position: relative;
-        margin-bottom: 4rem;
-
     }
 
     header > div {
-        background-color: #c5192d;
-        color: white;
-        text-align: center;
-        padding: 2rem;
-        position: absolute;
-        bottom: -4rem;
-        right: 0;
-        left: 0;
         width: 95vw;
-        margin: auto;
-        box-sizing: border-box;
     }
 
     main {
         width: 95vw;
-        box-shadow: 0px 0px 0px 1px darkgrey;
-        background-color: whitesmoke;
-        margin: auto;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-
     }
 
     #intro-container {
-        padding: 2em;
         background-color: #c5192d;
     }
 
-
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        padding-left:0;
-    }
-
-    @counter-style single-emoji {
-        system: cyclic;
-        symbols: "\1F64C" "1F3EB" "1F4DA";
-        suffix: " ";
-    }
-
-    li::before {
-        content: "🙌 ";
-        width: 1rem;
-        margin: 1rem 1rem 0rem 1rem;
-    }
-
-    li:nth-child(2)::before {
-        content: "🏫 ";
-    }
-
-    li:nth-child(3)::before {
-        content: "📚 ";
-    }
-
     article {
-        box-sizing: border-box;
         display: table;
-        padding: 2rem;
     }
 
     article:nth-child(2) {
@@ -124,16 +145,6 @@
 
     footer {
         width: 95vw;
-        box-sizing: border-box;
-        background-color: #c5192d;
-        margin: auto;
-        padding: 10px;
-        text-align: center;
-        color: white;
-    }
-
-    a {
-        color: white;
     }
     
 }
@@ -144,70 +155,16 @@
         font-size: 16px;
     }
 
-    body {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-        font-family: 'Lato', sans-serif;
-        font-size: 1.2rem;
-        margin: 0;
-        line-height: 1.5;
-    }
-
-    @font-face {
-        font-family: 'Montserrat-Bold';
-        src: url(assets/fonts/Montserrat-Bold.ttf);
-    }
-    
-    h1, h2, h3 {
-        font-family: "Montserrat-Bold", sans-serif;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 2.2rem;
-    }
-
-    p {
-        max-width: 70ch;
-    }
-
     header {
         height: 65vh;
-        width: 100%;
-        background-image: url(../project/assets/img/studentsbg.png);
-        background-attachment: fixed;
-        background-position: center top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: inline-block;
-        position: relative;
-        margin-bottom: 4rem;
-
     }
 
     header > div {
-        background-color: #c5192d;
-        color: white;
-        text-align: center;
-        padding: 2rem;
-        position: absolute;
-        bottom: -4rem;
-        right: 0;
-        left: 0;
         width: 85vw;
-        margin: auto;
-        box-sizing: border-box;
     }
 
     main {
         width: 85vw;
-        box-shadow: 0px 0px 0px 1px darkgrey;
-        background-color: whitesmoke;
-        margin: auto;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
     }
 
     #intro-container {
@@ -215,82 +172,22 @@
         background: linear-gradient(to right, #c5192d 50%, whitesmoke 50%);
     }
 
-    @counter-style single-emoji {
-        system: cyclic;
-        symbols: "\1F64C" "1F3EB" "1F4DA";
-        suffix: " ";
-    }
-
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    li::before {
-        content: "🙌 ";
-        width: 1rem;
-        margin: 1rem 1rem 0rem 1rem;
-    }
-
-    li:nth-child(2)::before {
-        content: "🏫 ";
-    }
-
-    li:nth-child(3)::before {
-        content: "📚 ";
-    }
-
-
-    li {
-        list-style: none;
-    }
-
-
     article {
         border-bottom: 0.1px solid darkgrey;
-        column-count: 1;
+        width: 100%;
+        column-count: 2;
         column-gap: 10%;
-        padding: 0.5rem;
-        display: inline-block;
-        box-sizing: border-box;
+        column-width: 45%;
     }
-
 
     article > img, div {
-        width: 45%;
-        margin: 2.2%;
+        width: 100%;
         display: inline-block;
-        vertical-align: middle;
+        /*display: inline-block; fungerer på safari, men ikke chrome*/
     }
-
-    article > img {
-        vertical-align: top;
-    }
-
-    article img:nth-child(1) {
-        margin-left: -0.4em;
-        margin-top: -0.4em;
-    }
-
-    article div:nth-child(2) {
-        margin-top: -0.4em;
-    }
-    
     
     footer {
         width: 85vw;
-        box-sizing: border-box;
-        background-color: #c5192d;
-        margin: auto;
-        padding: 20px;
-        text-align: center;
-        color: white;
-    }
-
-
-    a {
-        color: white;
     }
     
 }
@@ -301,73 +198,16 @@
         font-size: 24px;
     }
 
-    body {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-        font-family: 'Lato', sans-serif;
-        font-size: 1.2rem;
-        margin: 0;
-        line-height: 1.5;
-    }
-
-    @font-face {
-        font-family: 'Montserrat-Bold';
-        src: url(assets/fonts/Montserrat-Bold.ttf);
-    }
-    
-    h1, h2, h3 {
-        font-family: "Montserrat-Bold", sans-serif;
-    }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 2.2rem;
-    }
-
-    p {
-        max-width: 70ch;
-    }
-
     header {
         height: 65vh;
-        width: 100%;
-        background-image: url(../project/assets/img/studentsbg.png);
-        background-attachment: fixed;
-        background-position: center top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: inline-block;
-        position: relative;
-        margin-bottom: 4rem;
     }
 
     header > div {
-        background-color: #c5192d;
-        color: white;
-        text-align: center;
-        padding: 2rem;
-        position: absolute;
-        bottom: -4rem;
-        right: 0;
-        left: 0;
         width: 70vw;
-        margin: auto;
-        box-sizing: border-box;
     }
 
     main {
         width: 70vw;
-        box-shadow: 0px 0px 0px 1px darkgrey;
-        background-color: whitesmoke;
-        margin: auto;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-    }
-
-    img {
-        width: 100%;
     }
 
     #intro-container {
@@ -375,58 +215,22 @@
         background: linear-gradient(to right, #c5192d 50%, whitesmoke 50%);
     }
 
-    @counter-style single-emoji {
-        system: cyclic;
-        symbols: "\1F64C" "1F3EB" "1F4DA";
-        suffix: " ";
-    }
-
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    li::before {
-        content: "🙌 ";
-        width: 1rem;
-        margin: 1rem 1rem 0rem 1rem;
-    }
-
-    li:nth-child(2)::before {
-        content: "🏫 ";
-    }
-
-    li:nth-child(3)::before {
-        content: "📚 ";
-    }
-
     article {
         border-bottom: 0.1px solid darkgrey;
-        padding: 2rem;
-        box-sizing: border-box;
-        width: 100%;        
+        width: 100%;
+        column-count: 2;
+        column-gap: 10%;
+        column-width: 45%;
     }
 
     article > img, div {
-        width: 45%;
-        margin: 2.2%;
+        width: 100%;
         display: inline-block;
-        vertical-align: middle;
+        /*display: inline-block; fungerer på safari, men ikke chrome*/
     }
 
     footer {
         width: 70vw;
-        box-sizing: border-box;
-        background-color: #c5192d;
-        margin: auto;
-        padding: 0.5em;
-        text-align: center;
-        color: white;
     }
 
-    a {
-        color: white;
-    }
-    
 }
