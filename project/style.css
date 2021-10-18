@@ -9,7 +9,6 @@
         font-size: 1.2rem;
         margin: 0;
         line-height: 1.5;
-
     }
 
     @font-face {
@@ -397,7 +396,7 @@
 
     article > img, div {
         width: 45%;
-        margin: 2.25%;
+        margin: 2.2%;
         display: inline-block;
         vertical-align: middle;
     }
@@ -407,7 +406,7 @@
         box-sizing: border-box;
         background-color: #c5192d;
         margin: auto;
-        padding: 20px;
+        padding: 0.5em;
         text-align: center;
         color: white;
     }
