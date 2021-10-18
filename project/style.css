@@ -260,6 +260,13 @@
         width: 45%;
         margin: 2.25%;
         display: inline-block;
+    }
+
+    article > img {
+        vertical-align: top;
+    }
+
+    article > div {
         vertical-align: middle;
     }
 
