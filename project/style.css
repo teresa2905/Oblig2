@@ -182,8 +182,7 @@ a {
 
     article > img, div {
         width: 100%;
-        display: inline-block;
-        /*display: inline-block; fungerer på safari, men ikke chrome*/
+        display: inline-block; /*fungerer på safari, men ikke chrome*/
     }
     
     footer {
@@ -225,8 +224,7 @@ a {
 
     article > img, div {
         width: 100%;
-        display: inline-block;
-        /*display: inline-block; fungerer på safari, men ikke chrome*/
+        display: inline-block; /*fungerer på safari, men ikke chrome*/
     }
 
     footer {
