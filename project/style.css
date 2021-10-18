@@ -256,6 +256,21 @@
     article {
         border-bottom: 0.1px solid darkgrey;
     }
+
+    footer {
+        width: 85vw;
+        box-sizing: border-box;
+        background-color: #c5192d;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    a {
+        color: white;
+    }
+    
 }
 
 
