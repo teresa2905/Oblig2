@@ -208,7 +208,6 @@
         margin: auto;
         margin-bottom: 2rem;
         margin-top: 2rem;
-
     }
 
     #intro-container {
@@ -260,15 +259,13 @@
         width: 45%;
         margin: 2.2%;
         display: inline-block;
+        vertical-align: middle;
     }
 
     article > img {
         vertical-align: top;
     }
-
-    article > div {
-        vertical-align: middle;
-    }
+    
 
     footer {
         width: 85vw;
