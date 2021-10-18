@@ -272,6 +272,10 @@
         margin-left: -0.4em;
         margin-top: -0.4em;
     }
+
+    article div:nth-child(2) {
+        margin-top: -0.4em;
+    }
     
     
     footer {
