@@ -75,6 +75,7 @@
         background-color: #c5192d;
     }
 
+
     ul {
         list-style: none;
         margin: 0;
@@ -383,7 +384,7 @@
         border-bottom: 0.1px solid darkgrey;
         column-count: 1;
         column-gap: 10%;
-        padding: 1em;
+        padding: 0.5rem;
         display: inline-block;
         box-sizing: border-box;
     }
