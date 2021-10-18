@@ -217,6 +217,10 @@
         vertical-align: middle;
     }
 
+    article > img {
+        vertical-align: top;
+    }
+
     #intro-container {
         width: 100%;
         background: linear-gradient(to right, #c5192d 50%, whitesmoke 50%);
@@ -247,13 +251,6 @@
 
     li {
         list-style: none;
-    }
-
-    article > img, div {
-        width: 45%;
-        padding: 2.25%;
-        display: inline-block;
-        vertical-align: middle;
     }
 
     article {
