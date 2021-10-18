@@ -387,11 +387,9 @@
 
     article {
         border-bottom: 0.1px solid darkgrey;
-        column-count: 1;
-        column-gap: 10%;
         padding: 0.5rem;
-        display: inline-block;
         box-sizing: border-box;
+        width: 100%;        
     }
 
     article > img, div {
