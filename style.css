@@ -29,7 +29,7 @@ p {
 
 header {
     width: 100%;
-    background-image: url(../project/assets/img/studentsbg.png);
+    background-image: url(/assets/img/studentsbg.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
