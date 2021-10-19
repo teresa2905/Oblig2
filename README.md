@@ -7,4 +7,4 @@ Name and Student number:
     Behdad Nikkah,s362085
     Teresa Pham, s345368
 
-Måtte laste opp index.html, style.css på nytt i slik at det var i top nivået i repository, hadde det i en mappe
+Måtte laste opp index.html, style.css på nytt slik at det var i top nivået i repository, hadde det i en mappe
