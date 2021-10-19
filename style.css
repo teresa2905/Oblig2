@@ -25,6 +25,7 @@ h2 {
 
 p {
     max-width: 70ch;
+    margin: auto;
 }
 
 header {
