@@ -185,7 +185,7 @@ a {
         width: 100%;
     }
 
-    article > div, img > * {
+    article > div > * {
         display: inline-block;
     }
     
@@ -230,7 +230,7 @@ a {
         width: 100%;
     }
 
-    article > div, img > * {
+    article > div > * {
         display: inline-block;
     }
 
